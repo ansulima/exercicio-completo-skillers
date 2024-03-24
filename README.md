@@ -170,3 +170,43 @@ a) o atleta do sexo masculino mais alto; b) a atleta do sexo feminino mais pesad
 c) a media de idade dos atletas
 
 86. Criar um algoritmo que calcule quantos litros de gasolina são usados em uma via- gem, sabendo que um carro faz 10 km/litro. O usuário fornecerá a velocidade do carro e o período de tempo que viaja nesta velocidade para cada trecho do per- curso. Então, usando as fórmulas distância = tempo x velocidade e litros consu- midos = distância/l0, o algoritmo computará, para todos os valores não-nega- tivos de velocidade, os litros de combustível consumidos. O algoritmo deverá im- primir a distância e o número de litros de combustível gastos naquele trecho. De- verá imprimir, também, o total de litros gastos na viagem. O algoritmo pára quan- do for digitado um valor negativo de velocidade.
+87. Criar um algoritmo que calcule o imposto de renda de um grupo de contribuintes, considerando que:
+
+a) os dados de cada contribuinte (CIC, número de dependentes e renda bruta anual) serão fornecidos pelo usuário via teclado;
+b) para cada contribuinte será feito um abatimento de R$ 600 por dependente;
+c) a renda líquida é obtida diminuindo-se o abatimento com os dependentes da renda bruta anual;
+d) para saber quanto o contribuinte deve pagar de imposto, utiliza-se a tabela a seguir:
+
+| RENDA LÍQUIDA        | IMPOSTO     |
+|----------------------|-------------|
+| até R$ 1000          | 0% (isento) |
+| de R$ 1001 a R$ 5000 | 15%         |
+| acima de R$ 5000     | 25%         |
+
+e) o valor de CIC igual a zero indica final de dados,
+f) o algoritmo deverá imprimir, para cada contribuinte, o número do CIC e o imposto a ser pago;
+g) ao final o algoritmo deverá imprimir o total do imposto arrecadado pela Receita Federal e o número de contribuintes isentos;
+h) leve em consideração o fato de o primeiro dc informado poder ser zero.
+
+88. Criar um algoritmo que receba a idade e o estado civil (C- casado, 5- solteiro, V- viúvo e D- desquitado ou separado) de várias pessoas. Calcule e imprima:
+* a quantidade de pessoas casadas;
+* a quantidade de pessoas solteiras;
+* a média das idades das pessoas viúvas;
+* a porcentagem de pessoas desquitadas ou separadas dentre todas as pessoas analisadas.
+
+O algoritmo acaba quando se digita um número menor do que O para idade.
+
+89. Um sistema de controle de estoque armazena nome quantidade em estoque e preço unitário de 40 mercadorias Fazer um menu que exiba as seguintes opções: 
+
+Menu
+1 - Cadastrar mercadorias
+2 - Exibe valor total em mercadorias da empresa
+3 - Sai
+Opção: 
+
+
+90. Em um concurso interno, para ocupar os cargos de diretor e gerente de uma empresa, concorreram dez pessoas. Essas pessoas fizeram três provas X, Y Z. Como os cargos tinham perfis diferentes, os pesos das provas eram diferentes para cada cargo. Cada candidato recebeu um número de O até 9. Criar um algoritmo que possa imprimir os números dos candidatos que foram nomeados para diretor e para gerente. Se o primeiro lugar para o cargo de gerente for o mesmo do cargo de diretor, então, o segundo colocado será nomeado para gerente.
+91. Criar uma função que receba um caractere como parâmetro e retorne 1, caso seja uma vogal minúscula, e O, caso contrário.
+92. Criar uma função que receba um caractere como parâmetro. A função deve retor- nar 1, se o caractere for uma letra maiúscula, e O caso contrário.
+
+
