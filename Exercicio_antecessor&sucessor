@@ -1,0 +1,9 @@
+# Ler um número inteiro e imprimir seu sucessor e seu antecessor.
+
+puts "Digite um número inteiro:"
+numero = gets.chomp.to_i
+# antecessor = numero -1
+# sucessor = numero + 1
+
+puts "O antecessor de #{numero} é #{antecessor = numero - 1}"
+puts "O sucessor de #{numero} é #{sucessor = numero + 1}"
