@@ -1,3 +1,5 @@
+# Ler dois números inteiros e imprimir o produto.
+
 puts "Digite o primeiro número: "
 num1 = gets.chomp.to_i
 puts "Digite o segundo número: "
